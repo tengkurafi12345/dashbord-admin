@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutor Profile</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header class="header">
+    
+    <section class="flex">
+
+        <a href="home.html" class="logo">Zidnan_Course.</a>
+
+        <form action="search.html" method="post" class="search-form">
+            <input type="text" name="search_box" required placeholder="Search courses..." maxlength="100" aria-label="Search courses">
+            <button type="submit" class="fas fa-search" aria-label="Submit search"></button>
+        </form>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars" aria-label="Menu"></div>
+            <div id="search-btn" class="fas fa-search" aria-label="Search"></div>
+            <div id="user-btn" class="fas fa-user" aria-label="User"></div>
+            <div id="toggle-btn" class="fas fa-sun" aria-label="Toggle theme"></div>
+        </div>
+
+        <div class="profile">
+            <img src="images/Zidnan.jpg" class="image" alt="Profile picture">
+            <h3 class="name">Rumah Tahfidz</h3>
+            <p class="role">& Course</p>
+            <a href="profile.html" class="btn">View profile</a>
+            <div class="flex-btn">
+            <a href="login.html" class="option-btn">Login</a>
+            <a href="register.html" class="option-btn">Register</a>
+            </div>
+        </div>
+
+    </section>
+
+</header>   
+
+<div class="side-bar">
+
+    <div id="close-btn">
+        <i class="fas fa-times" aria-label="Close sidebar"></i>
+    </div>
+
+    <div class="profile">
+        <img src="images/Zidnan.jpg" class="image" alt="Profile picture">
+        <h3 class="name">Rumah Tahfidz</h3>
+        <p class="role">& Course</p>
+        <a href="profile.html" class="btn">View profile</a>
+    </div>
+
+    <nav class="navbar">
+        <a href="home.html"><i class="fas fa-home" aria-hidden="true"></i><span>Home</span></a>
+        <a href="about.html"><i class="fas fa-question" aria-hidden="true"></i><span>About</span></a>
+        <a href="courses.html"><i class="fas fa-graduation-cap" aria-hidden="true"></i><span>Courses</span></a>
+        <a href="teachers.html"><i class="fas fa-chalkboard-user" aria-hidden="true"></i><span>Teachers</span></a>
+        <a href="contact.html"><i class="fas fa-headset" aria-hidden="true"></i><span>Contact Us</span></a>
+    </nav>
+
+</div>
+
+<section class="teacher-profile">
+    <h1 class="heading">Profile Details</h1>
+    <div class="details">
+        <div class="tutor">
+            <img src="images/teacher2.jpg" alt="Tutor picture">
+            <h3>John Deo</h3>
+            <span>Developer</span>
+        </div>
+        <div class="flex">
+            <p>Total playlists: <span>4</span></p>
+            <p>Total videos: <span>18</span></p>
+            <p>Total likes: <span>1208</span></p>
+            <p>Total comments: <span>52</span></p>
+        </div>
+    </div>
+</section>
+
+<section class="courses">
+    <h1 class="heading">Our Courses</h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="thumb">
+                <img src="images/1.1.jpg.jpg" alt="HTML tutorial thumbnail">
+                <span>10 videos</span>
+            </div>
+            <h3 class="title">Complete English Tutorial</h3>
+            <a href="playlist.html" class="inline-btn">View Playlist</a>
+        </div>
+
+        <div class="box">
+            <div class="thumb">
+                <img src="images/2.jpg.jpg" alt="CSS tutorial thumbnail">
+                <span>10 videos</span>
+            </div>
+            <h3 class="title">Complete Fisika Tutorial</h3>
+            <a href="playlist.html" class="inline-btn">View Playlist</a>
+        </div>
+
+        <div class="box">
+            <div class="thumb">
+                <img src="images/3.3.jpg.jpg" alt="JavaScript tutorial thumbnail">
+                <span>10 videos</span>
+            </div>
+            <h3 class="title">Complete Matematika Tutorial</h3>
+            <a href="playlist.html" class="inline-btn">View Playlist</a>
+        </div>
+
+        <div class="box">
+            <div class="thumb">
+                <img src="images/4.jpg.jpg" alt="Bootstrap tutorial thumbnail">
+                <span>10 videos</span>
+            </div>
+            <h3 class="title">Complete Programing Tutorial</h3>
+            <a href="playlist.html" class="inline-btn">View Playlist</a>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    &copy; Rumah Tahfidz @ 2024 by <span>Zidnan_Course.</span> | all rights reserved!
+</footer>
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+</body>
+</html>

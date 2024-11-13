@@ -1,0 +1,88 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body dan tata letak umum */
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f4f4f4; */
+    padding: 20px;
+}
+
+.linkInput {
+    font-size: 20px;
+}
+
+/* Form input */
+#linkForm {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#linkForm input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+#linkForm input:focus {
+    border-color: #6c63ff;
+    outline: none;
+}
+
+#linkForm button {
+    padding: 10px 15px;
+    background-color: #6c63ff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+#linkForm button:hover {
+    background-color: #5746e0;
+}
+
+/* Tampilan video atau zoom */
+#embedContainer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#embedContainer iframe {
+    max-width: 100%;
+    width: 560px;
+    height: 315px;
+    border-radius: 8px;
+}
+
+#embedContainer a {
+    color: #6c63ff;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+}
+
+#embedContainer a:hover {
+    text-decoration: underline;
+}
